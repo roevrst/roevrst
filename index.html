@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+function redirectToSite1() {
+  window.location.href = ''; // Yönlendirilmek istenen site adresi buraya yazılır
+}
+</script>
+<script>
+function redirectToSite2() {
+  window.location.href = 'https://discord.com/invite/JBCn25qhCX'; // Yönlendirilmek istenen site adresi buraya yazılır
+}
+</script>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RoEverest</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">okumanız gerekenler</a>
+    <a id="work" onclick="redirectToSite2()" class="animated fadeIn" style="animation-delay:2.2s;">discord</a>
+    <a id="contact" onclick="redirectToSite1()" class="animated fadeIn" style="animation-delay:2.2s;">indir</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>RoEverest.</h1>
+        <h2>Kazanma sırası artık sende.</h2>
+        <div id="menu">
+            <a onclick="showabout()">okumanız gerekenler</a>
+            <a onclick="redirectToSite2()">discord</a>
+            <a onclick="redirectToSite1()">indir</a>
+        </div>
+        
+    </div>
+    <div class="badge-container">
+    <a href="https://scriptunc.org" target="_blank">
+        <img style="width: 120px; height: auto;" alt="UNC Supported Badge" src="https://scriptunc.org/badge.png"/>
+    </a>
+</div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>okumanız gerekenler.</h1>
+            <section>
+                <h2>Bilmeniz gerekenler</h2>
+                <p>
+                    RoEverest'i indirerek, sorumluluğun size ait olduğunu kabul etmiş olursunuz.
+                </p>
+                <p>
+                    Eğer RoEverest yüzünden Roblox hesabınıza bir şey olursa veya bir oyundan sınırsız yasaklanırsanız, RoEverest sorumlu değildir.
+                </p>
+            </section>
+            <section>
+                <h2>Gizlilik</h2>
+                <p>
+                    RoEverest'i her açtığınızda RoEverest sizin bilgisayarınızdan bilgi toplar. Korkmayın, bu bilgiler sadece şunlardır: IP adresiniz, bilgisayarınızın adı ve işletim sisteminiz.
+                </p>
+            </section>
+	<h3>RoEverest'i indirerek bu yazıları okuduğunuz kabul edilir.</h3>
+        </div>
+          
+        <div id="footer">
+            Yapımcı <br> <a>kulyusuf</a>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+
+</body>
+</html>
